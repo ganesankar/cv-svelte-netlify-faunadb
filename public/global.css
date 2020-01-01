@@ -1,0 +1,140 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7fbfd;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+}
+.full-width {
+  width: 100%;
+}
+
+.container-fluid:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.01);
+}
+
+.titleLeft {
+  background: rgba(0, 0, 0, 0.01);
+  display: -webkit-box;
+  display: flex;
+  min-height: 100%;
+}
+
+.titleLeft > div {
+  display: block;
+  width: 100%;
+  padding: 70px 30px 30px;
+  text-align: right;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.rightContainer {
+  padding: 70px 30px 30px;
+  display: -webkit-box;
+  display: flex;
+  min-height: 100%;
+}
+
+.rightContainer > div {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.el-divider {
+  display: block;
+  height: 1px;
+  width: 100%;
+  margin: 24px 0;
+  background-color: #dcdfe6;
+  position: relative;
+}
+.el-divider-text {
+  position: absolute;
+  background-color: #f7fbfd;
+  padding: 0 20px;
+  color: #303133;
+}
+
+.container-fluid:nth-child(2n) .el-divider-text {
+  background: #f4f8fa;
+}
+.is-right {
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.is-left {
+  left: 20px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.progresbarContent {
+  display: block;
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  .progresbarContent {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+}
+.card-footer.first {
+  border-bottom: 1px solid #ededed;
+}
+.align-left {
+  text-align: left;
+  justify-content: left;
+}
+
+.position-absolute {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 4;
+  background: #fbfdfe73;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.hero .title {
+  color: #363636;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.125;
+  text-transform: capitalize;
+}
+.hero .subtitle {
+  color: #4a4a4a;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
