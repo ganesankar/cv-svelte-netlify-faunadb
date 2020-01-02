@@ -1,6 +1,8 @@
 {
-  "name": "svelte-app",
+  "name": "cv-svelte-netlify-faunadb",
   "version": "1.0.0",
+  "description": "Svelte.js and FaunaDB based CV  for running Netlify functions locally in a dev environment and as a generated static site deployed to Netlify",
+  "author": "Ganesan Karuppaiya <ganesank@live.com>",
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "rollup": "^1.10.1",
