@@ -13,7 +13,7 @@
 
   onMount(async () => {
     const response = await fetch(
-      "https://ganesan-cv-reactjs.netlify.com/.netlify/functions/cv-all"
+      "https://ganesan-cv-reactjs.netlify.app/.netlify/functions/cv-all"
     );
     const contentbase = await response.json();
     const contentdata = [];
