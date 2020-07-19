@@ -16,7 +16,7 @@
   "dependencies": {
     "@sveltekit/ui": "^3.1.1",
     "bulma": "^0.8.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "luxon": "^1.21.3",
     "sirv-cli": "^0.4.4"
   },
